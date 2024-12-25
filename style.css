@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(#61e7ce, #2adf93);
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-image: linear-gradient(#4ddcc2, lightblue, #4ddcc2);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d0c2c2;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+.copy-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background-color: #218838;
+}
